@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F4DF1C541E9E957800CDFF53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C531E9E957800CDFF53 /* AppDelegate.swift */; };
-		F4DF1C561E9E957800CDFF53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C551E9E957800CDFF53 /* ViewController.swift */; };
+		F4DF1C561E9E957800CDFF53 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C551E9E957800CDFF53 /* MainVC.swift */; };
 		F4DF1C591E9E957800CDFF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DF1C571E9E957800CDFF53 /* Main.storyboard */; };
 		F4DF1C5B1E9E957800CDFF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DF1C5A1E9E957800CDFF53 /* Assets.xcassets */; };
 		F4DF1C5E1E9E957800CDFF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DF1C5C1E9E957800CDFF53 /* LaunchScreen.storyboard */; };
 		F4DF1C691E9E957800CDFF53 /* BigMirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C681E9E957800CDFF53 /* BigMirrorTests.swift */; };
 		F4DF1C741E9E957800CDFF53 /* BigMirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C731E9E957800CDFF53 /* BigMirrorUITests.swift */; };
+		F4DF1C851E9E9B4900CDFF53 /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C841E9E9B4900CDFF53 /* DetailedVC.swift */; };
+		F4DF1C871E9EA12D00CDFF53 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C861E9EA12D00CDFF53 /* MaterialView.swift */; };
+		F4DF1C891E9EA18900CDFF53 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C881E9EA18900CDFF53 /* ItemCell.swift */; };
+		F4DF1C8B1E9EA25300CDFF53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF1C8A1E9EA25300CDFF53 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		F4DF1C501E9E957800CDFF53 /* BigMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF1C531E9E957800CDFF53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4DF1C551E9E957800CDFF53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DF1C551E9E957800CDFF53 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		F4DF1C581E9E957800CDFF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4DF1C5A1E9E957800CDFF53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DF1C5D1E9E957800CDFF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		F4DF1C6F1E9E957800CDFF53 /* BigMirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigMirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DF1C731E9E957800CDFF53 /* BigMirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigMirrorUITests.swift; sourceTree = "<group>"; };
 		F4DF1C751E9E957800CDFF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DF1C841E9E9B4900CDFF53 /* DetailedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
+		F4DF1C861E9EA12D00CDFF53 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		F4DF1C881E9EA18900CDFF53 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		F4DF1C8A1E9EA25300CDFF53 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,10 @@
 		F4DF1C521E9E957800CDFF53 /* BigMirror */ = {
 			isa = PBXGroup;
 			children = (
+				F4DF1C831E9E959200CDFF53 /* Controller */,
+				F4DF1C821E9E958C00CDFF53 /* View */,
+				F4DF1C811E9E958700CDFF53 /* Model */,
 				F4DF1C531E9E957800CDFF53 /* AppDelegate.swift */,
-				F4DF1C551E9E957800CDFF53 /* ViewController.swift */,
 				F4DF1C571E9E957800CDFF53 /* Main.storyboard */,
 				F4DF1C5A1E9E957800CDFF53 /* Assets.xcassets */,
 				F4DF1C5C1E9E957800CDFF53 /* LaunchScreen.storyboard */,
@@ -123,6 +133,32 @@
 				F4DF1C751E9E957800CDFF53 /* Info.plist */,
 			);
 			path = BigMirrorUITests;
+			sourceTree = "<group>";
+		};
+		F4DF1C811E9E958700CDFF53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4DF1C8A1E9EA25300CDFF53 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4DF1C821E9E958C00CDFF53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4DF1C861E9EA12D00CDFF53 /* MaterialView.swift */,
+				F4DF1C881E9EA18900CDFF53 /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4DF1C831E9E959200CDFF53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4DF1C551E9E957800CDFF53 /* MainVC.swift */,
+				F4DF1C841E9E9B4900CDFF53 /* DetailedVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					F4DF1C4F1E9E957800CDFF53 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XYRU9GS26N;
 						ProvisioningStyle = Automatic;
 					};
 					F4DF1C631E9E957800CDFF53 = {
@@ -259,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DF1C561E9E957800CDFF53 /* ViewController.swift in Sources */,
+				F4DF1C561E9E957800CDFF53 /* MainVC.swift in Sources */,
 				F4DF1C541E9E957800CDFF53 /* AppDelegate.swift in Sources */,
+				F4DF1C8B1E9EA25300CDFF53 /* User.swift in Sources */,
+				F4DF1C851E9E9B4900CDFF53 /* DetailedVC.swift in Sources */,
+				F4DF1C871E9EA12D00CDFF53 /* MaterialView.swift in Sources */,
+				F4DF1C891E9EA18900CDFF53 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYRU9GS26N;
 				INFOPLIST_FILE = BigMirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Fein.BigMirror";
@@ -424,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XYRU9GS26N;
 				INFOPLIST_FILE = BigMirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Fein.BigMirror";
